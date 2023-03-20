@@ -2,7 +2,7 @@
 
 Are you a book lover? Are you looking for a community of fellow bookworms to share your thoughts and recommendations with? Look no further than the Roskie Book Club! 🎉
 
-Our club is named after our beloved mascot, Rosie the dog 🐶, who loves nothing more than curling up with a good book and her favorite humans. We welcome readers of all ages and backgrounds, and we're always on the lookout for new members to join our pack.
+We welcome readers of all ages and backgrounds, and we're always on the lookout for new members to join our pack.
 
 ## How to Join 🐾
 
