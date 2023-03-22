@@ -10,72 +10,151 @@
     <link rel="icon" type="image/png" sizes="32x32" href="roskie-favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="roskie-favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- navbar -->
+   <header>
     <nav>
-        <ul type="none">
-            <li><a href="#"><img src="img/roskie-logo-inline.png" alt="roskie logo" width="11%"/></a></li>
-            <li><a href="#">JOIN A BOOK CLUB</a></li>
-            <li><a href="#">FIND A BOOK</a></li>
-            <li><a href="#">COMMUNITY</a></li>
-            <li><a href="#">DISCUSSION GUIDES</a></li>
-        </ul>
-        <form>
-            <input type="search" name="q" placeholder="Search Books!" />
-            <input type="submit" value="Go!" />
-        </form>
+        <img src="img/roskie-logo-inline.png" alt="roskie-logo-inline.png" width="15%" />
+        <a href="#ourpicks">Our Picks</a>
+        <a href="#whoweare">Who We Are</a>
+        <a href="#readership">Readership</a>
+        <a href="#litup">Lit Up</a>
+        <a href="#faqs">FAQs</a>
     </nav>
-    
-    <!-- header -->
-    <header>
-        <p>ini rubahnya digithubbbbb dua kali kali jkali</p>
-        <img src="img/jumbotron-home.webp" alt="jumbotron">
-        <h3>Your book club, made simple.</h3>
-        <p>Organize your club, start a new one, and find your book people. For free.</p>
-        <form action="">
-            <input type="submit" value="JOIN NOW!">
-        </form>
-    </header>
-
-    <!-- content -->
-
-    <main>
-        <section>
-            <h1>ini rubahnya digithub</h1>
-            <h2>Organize your book club...and your bookshelves. All for free.</h2>
-            <ul>
-                <li>View all the books your club has read in one place</li>
-                <li>Manage your club membership online — no more email chains!</li>
-                <li>Get inspired — see what other book clubs are reading</li>
-                <li>Poll your members to select books and meeting dates</li>
-                <li>Rate each book you read and save ratings</li>
-                <li>Connect with others in the Bookclubs community</li>
-            </ul>
-            <form action="">
-                <input type="submit" value="CREATE YOUR CLUB">
-            </form>
-        </section>
-        <section>
-            <h3>Join a Book Club</h3>
-            <p>Readers wanted! Browse clubs that are open to the public and find the perfect book club for you.</p>
-        </section>
-        <article>
-            <img src="img/roskie-logo.jpg" width="20%" alt="roskielogo" srcset="">
-            <h3>Read With</h3>
-            <p title="I'm a tooltip">This is a paragraph.</p>
-            <p><mark>yaudaahh</mark> <em>apaa</em></p>
-            <blockquote cite="www.google.com">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eligendi aliquid quidem nihil minus ducimus!</blockquote>
+   </header>
+   
+   <main>
+    <section id="quiz">
+        <h4>Quiz</h4>
+        <h1>WHICH DAISY JONES & THE SIX CHARACTER ARE YOU?</h1>
+        <p>Listen up! It’s almost time to hit the stage. But is the spotlight on you, or are you pulling the strings backstage? </p>
+        <a href="#quiz" target="_blank" rel="noopener noreferrer">Take the Quiz</a>
+        <img src="img/banner-roskie.jpg" alt="quiz" width="20%">
+    </section>
+    <section id="whatsnew">
+        <h3>What's New</h3>
+        <article id="rbcpicks">
+            <a href="#home">
+                <img src="/img/banner-roskie.jpg" alt="banner" width="15%">
+            </a>
+            <a href="#home">
+                <p>The Complete List of Reese's Book Club Picks</p>
+            </a>
+            <p>Reese Witherspoon has been recommending her favorite books to readers through Reese's Book Club since 2017. Here is a full list of all Reese's Picks.</p>
+            <a href="#home">RBC Picks</a>
         </article>
-    </main>
+        <article id="info">
+            <a href="#home">
+                <img src="/img/banner-roskie.jpg" alt="banner" width="15%">
+            </a>
+            <a href="#home">
+                <p>The Complete List of Reese's Book Club Picks</p>
+            </a>
+            <p>Reese Witherspoon has been recommending her favorite books to readers through Reese's Book Club since 2017. Here is a full list of all Reese's Picks.</p>
+            <a href="#home">RBC Picks</a>
+        </article>
+        <article id="update">
+            <a href="#home">
+                <img src="/img/banner-roskie.jpg" alt="banner" width="15%">
+            </a>
+            <a href="#home">
+                <p>The Complete List of Reese's Book Club Picks</p>
+            </a>
+            <p>Reese Witherspoon has been recommending her favorite books to readers through Reese's Book Club since 2017. Here is a full list of all Reese's Picks.</p>
+            <a href="#home">RBC Picks</a>
+        </article>
+    </section>
+    <section id="shop">
+        <h4>THE READERSHIP</h4>
+        <h1>SUPPORT LITERACY, ONE PAGE AT A TIME</h1>
+        <p>All proceeds from books you purchase in our app, items you buy from our shop, and initiatives we do with our partners go to The Readership our pay-it-forward program diving deeper to advance literacy.</p>
+        <a href="#shop" target="_blank" rel="noopener noreferrer">Shop</a>
+        <img src="img/banner-roskie.jpg" alt="shop" width="20%">
+    </section>
+    <section id="jtc">
+        <img src="img/banner-roskie.jpg" alt="shop" width="20%">
+        <h2>Join the Club</h2>
+        <p>We're here together. Meet your fellow book lovers and get involved in the conversation.</p>
+        <a href="#jtc" target="_blank" rel="noopener noreferrer">Let's Chat</a>
+        <template id="star-rating-template">
+            <form>
+              <fieldset>
+                <legend>Rate your experience:</legend>
+                <rating>
+                  <input type="radio" name="rating" value="1" aria-label="1 star" required />
+                  <input type="radio" name="rating" value="2" aria-label="2 stars" />
+                  <input type="radio" name="rating" value="3" aria-label="3 stars" />
+                  <input type="radio" name="rating" value="4" aria-label="4 stars" />
+                  <input type="radio" name="rating" value="5" aria-label="5 stars" />
+                </rating>
+              </fieldset>
+              <button type="reset">Reset</button>
+              <button type="submit">Submit</button>
+            </form>
+          </template>
+    </section>
+    <section id="collabs">
+        <h3>Collabs</h3>
+        <article id="rbcpicks">
+            <a href="#home">
+                <img src="/img/banner-roskie.jpg" alt="banner" width="15%">
+            </a>
+            <a href="#home">
+                <p>The Complete List of Reese's Book Club Picks</p>
+            </a>
+            <p>Reese Witherspoon has been recommending her favorite books to readers through Reese's Book Club since 2017. Here is a full list of all Reese's Picks.</p>
+            <a href="#home">RBC Picks</a>
+        </article>
+        <article id="info">
+            <a href="#home">
+                <img src="/img/banner-roskie.jpg" alt="banner" width="15%">
+            </a>
+            <a href="#home">
+                <p>The Complete List of Reese's Book Club Picks</p>
+            </a>
+            <p>Reese Witherspoon has been recommending her favorite books to readers through Reese's Book Club since 2017. Here is a full list of all Reese's Picks.</p>
+            <a href="#home">RBC Picks</a>
+        </article>
+        <article id="update">
+            <a href="#home">
+                <img src="/img/banner-roskie.jpg" alt="banner" width="15%">
+            </a>
+            <a href="#home">
+                <p>The Complete List of Reese's Book Club Picks</p>
+            </a>
+            <p>Reese Witherspoon has been recommending her favorite books to readers through Reese's Book Club since 2017. Here is a full list of all Reese's Picks.</p>
+            <a href="#home">RBC Picks</a>
+        </article>
+    </section>
+   </main>
 
-    <p>This paragraph has some
-    <strong><em>strongly emphasized</em></strong>
-        content</p>
-    
-    <!-- footer -->
-    <footer>
-        <p>© 2023 roskie bookclub, Inc. All rights reserved</p>
-    </footer>
+   <footer>
+    <div id="Newsletter">
+        <h2>Join the Newsletter</h2>
+        <p>Dive into the latest from Roskie Book Club</p>
+        <form action="">
+            <input type="email" value placeholder="Enter email address">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div id="socmed">
+        <a href="#"><img src="img/banner-roskie.jpg" alt="instagram" width="5%"></a>
+        <a href="#"><img src="img/banner-roskie.jpg" alt="facebook" width="5%"></a>
+        <a href="#"><img src="img/banner-roskie.jpg" alt="twitter" width="5%"></a>
+        <a href="#"><img src="img/banner-roskie.jpg" alt="tiktok" width="5%"></a>
+        <a href="#"><img src="img/banner-roskie.jpg" alt="youtube" width="5%"></a>
+    </div>
+    <div id="notice">
+        <a href="#privacypolicy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+        <span>|</span>
+        <a href="#termsandcondition" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
+        <span>|</span>
+        <a href="#cookiesetting" target="_blank" rel="noopener noreferrer">Cookie Setting</a>
+        <span>|</span>
+    </div>
+    <p>&copy;2023 Roskie Book Club | Made With Fire</p>
+    <address>Roskie Hall, Bozeman, MT 59715, United States</address>
+   </footer>
 </body>
 </html>
