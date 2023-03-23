@@ -1,3 +1,28 @@
-* {
-  color: purple;
+body {
+  background-color: #e2e8f0;
+}
+
+nav {
+  background-color: #e2e8f0;
+}
+
+.navbar {
+  text-decoration: none;
+  color: #5ca697;
+}
+
+[id="quiz"] {
+  background-color: black;
+}
+
+a:hover{
+  color: yellow;
+}
+
+::selection{
+  background-color: black;
+}
+
+article p{
+  color: blue;
 }
