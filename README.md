@@ -9,7 +9,7 @@ We welcome readers of all ages and backgrounds, and we're always on the lookout 
 Becoming a member of the Roskie Book Club is easy! Simply follow these steps:
 
 1. Visit our website at [www.roskiebookclub.com](http://www.roskiebookclub.com)
-2. Click the "Join Now" button
+2. Click the "Join Now!" button
 3. Fill out the membership form
 4. Start reading and sharing your thoughts with our community! 🤗
 
